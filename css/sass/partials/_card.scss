@@ -1,0 +1,9 @@
+.card{
+    &-panel{
+      background: linear-gradient(180deg, #27373F 0%, rgba(30, 42, 48, 0.26) 100%);
+      box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.02);
+      border: 0;
+      box-sizing: border-box;
+      height: 400px;
+    }
+}

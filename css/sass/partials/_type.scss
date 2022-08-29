@@ -1,0 +1,62 @@
+.text {
+    font-weight: normal;
+    line-height: 1.2em;
+    &--12px {
+        font-size: 0.75rem;
+    }
+    &--20px {
+        font-size: 1.25rem;
+    }
+
+    &--30px {
+        font-size: 1.875rem;
+    }
+
+    &--120px{
+        font-size: 7.5rem;
+    }
+
+    &--270px {
+        font-size: 16.875rem;
+    }
+
+    &--330px {
+        font-size: 20.625rem;
+    }
+
+    &--Rubik{
+        font-family: 'Rubik', sans-serif;
+    }
+
+    &--Saira{
+        font-family: 'Saira Semi Condensed', sans-serif;
+    }
+
+    &--green_01{
+        color: $green_01;
+    }
+
+    &--gray_01{
+        color: $gray_01;
+    }
+
+}
+
+.link {
+    background: none;
+    font-weight: 400;
+    outline: none;
+    line-height: 1.2em;
+    margin: 0.5em 0;
+    &--none {
+        text-decoration: none;
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+    &-decoration {
+        text-decoration: underline;
+    }
+}
